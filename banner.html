@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome | Home</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <style>
+        body {
+            text-align: center;
+            background-color: rgb(70, 126, 70);
+            color: #333;
+        }
+
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px;
+        }
+
+        .logo img {
+            width: 120px; 
+        }
+
+        .banner {
+            position: relative;
+            width: 100%;
+            height: 500px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            color:white;
+            padding: 20px;
+        }
+
+        .banner h1 {
+            font-size: 3em;
+            background: rgba(0, 0, 0, 0.6);
+            padding: 20px 30px;
+            border-radius: 12px;
+            animation: bounce 1.5s infinite alternate ease-in-out;
+        }
+
+        @keyframes bounce {
+            from {
+                transform: translateY(0);
+            }
+            to {
+                transform: translateY(-15px);
+            }
+        }
+
+        #nav {
+            display: flex;
+            justify-content: flex-end; 
+            gap: 15px;
+            margin-top: 20px;
+            padding-right: 20px;
+            position: relative;
+        }
+
+        #nav a {
+            text-decoration: none;
+            color: white;
+            padding: 12px 20px;
+            border-radius: 8px;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+
+        #nav a:hover {
+            background-color: #21bb5c;
+        }
+
+        .nav-line-top {
+            width: 100%;
+            height: 5px;
+            background-color: rgb(13, 172, 13);
+            position: absolute;
+            bottom: -15px;
+            left: 0;
+        }
+
+        .nav-line-bottom {
+            width: 60%;
+            height: 2px;
+            background-color: rgb(205, 205, 22);
+            position: absolute;
+            bottom: -17px; 
+            left: 0;
+        }
+
+        .text {
+            max-width: 800px;
+            margin: 40px auto;
+            padding: 20px;
+            background: white;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div class="logo">
+            <img src="476226624_9623651527666197_7577503940005124377_n-removebg-preview.png" alt="Logo"> <!-- Replace with your logo file -->
+        </div>
+        <div id="nav">
+            <a href="banner.html" class="active">
+                <i class="fa fa-home"></i> HOME
+            </a>
+            <a href="product.html">
+                <i class="fa fa-box"></i> PRODUCT
+            </a>
+            <a href="about.html">
+                <i class="fa fa-info-circle"></i> ABOUT
+            </a>
+            <a href="gallery.html">
+                <i class="fa fa-images"></i> GALLERY
+            </a>
+            <a href="contacts.html">
+                <i class="fa fa-envelope"></i> CONTACT
+            </a>
+            <a href="loginpage.html">
+                <i class="fa fa-sign-in-alt"></i> SIGN IN
+            </a>
+            
+            <div class="nav-line-top"></div>
+            <div class="nav-line-bottom"></div>
+        
+        </div>
+    </div>
+    <!--image carosel for dashboard here-->
+    <div class="banner">
+        <h1> WELCOME <br>(buss name)<br></h1>
+    </div>
+
+    <div class="text">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere illo ipsum molestiae praesentium est magni vero cumque, animi recusandae neque quasi, necessitatibus, suscipit debitis vel eligendi porro?</p>
+    </div>
+
+    <div class="text">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere illo ipsum molestiae praesentium est magni vero cumque, animi recusandae neque quasi, necessitatibus, suscipit debitis vel eligendi porro?</p>
+    </div>
+
+    <div class="text">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere illo ipsum molestiae praesentium est magni vero cumque, animi recusandae neque quasi, necessitatibus, suscipit debitis vel eligendi porro?</p>
+    </div>
+
+    <div class="text">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere illo ipsum molestiae praesentium est magni vero cumque, animi recusandae neque quasi, necessitatibus, suscipit debitis vel eligendi porro?</p>
+    </div>
+</body>
+</html>
